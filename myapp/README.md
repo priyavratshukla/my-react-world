@@ -42,3 +42,35 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Steps to setup the project
+
+$ npm install --global create-react-app
+$ cd /path/to/folder
+$ create-react-app my-hello-world
+cd my-hello-world
+npm start
+
+remove everything from App.js and add the following:
+
+import React from 'react';
+import './App.css';
+export default () => (
+  <div className="App">
+    <header className="App-header">
+      <h1 className="App-title">Welcome To My Hello World!</h1>
+    </header>
+    <p className="App-intro">
+      My name is type_your_name_here. Welcome, and hello!
+    </p>
+  </div>
+);
+
+## Moving on to automated builds and deployments
+
+npm install --global surge
+
+$ npm run build && surge
+
+ yarn global add serve
+  serve -s build
