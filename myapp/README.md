@@ -74,3 +74,9 @@ $ npm run build && surge
 
  yarn global add serve
   serve -s build
+
+After git commit ---------->
+npm test
+npm run build
+yarn add --dev gh-pages
+yarn run deploy
