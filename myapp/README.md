@@ -78,5 +78,5 @@ $ npm run build && surge
 After git commit ---------->
 npm test
 npm run build
-yarn add --dev gh-pages
-yarn run deploy
+npm add --dev gh-pages
+npm run deploy
