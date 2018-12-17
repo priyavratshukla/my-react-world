@@ -32,7 +32,7 @@ import './App.css';
 export default () => (
   <div className="App">
     <header className="App-header">
-      <h1 className="App-title">Bell canada</h1>
+      <h1 className="App-title">Bell canada </h1>
     </header>
     <p className="App-intro">
       Hi, I am TechM. Welcome, and hello!
